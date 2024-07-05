@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-class FootballDataset:
+class FootballDataLoader:
     DATE_COLUMNS = {
         'players': ['date_of_birth'],
         'appearances': ['date'],
