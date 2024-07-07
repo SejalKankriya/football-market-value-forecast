@@ -3,11 +3,13 @@ This repository contains an LSTM-based model designed to predict football player
 
 <img src = "https://github.com/SejalKankriya/football-market-value-forecast/assets/43418191/9cdc1c88-4c85-4c22-9db5-e185f66d1796" width=50% height=40%> 
 
-## Contents
+## Structure
 
-- **football_data_loader.py:** Python script for loading and preprocessing football dataset.
-- **football_player_analysis.ipynb:** Jupyter notebook for data analysis and exploration.
-- **lstm.ipynb:** Jupyter notebook implementing LSTM model for market value prediction.
+- `football_data_loader.py`: Python script for loading and preprocessing football dataset.
+- `football_player_analysis.ipynb`: Jupyter notebook for data analysis and exploration.
+- `lstm.ipynb`: Jupyter notebook implementing LSTM model for market value prediction.
+- `lstm_market_value_predictor.pth`: Saved PyTorch model file.
+- `requirements.txt`: List of Python packages required to run the project.
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
